@@ -6,7 +6,7 @@ Installation
 
 Simply extract all files from this archive into your .xbmc directory.
 
-Install `Keymap.xml` into `.xbmc/userdata/keymaps` or wherever it is you stick config files on your operating system.
+Alternatively save (Keymap.xml)[https://github.com/hash-bang/XBMC-XBOX/blob/master/userdata/keymaps/Keymap.xml] into your XBOX `userdata/keymaps` folder which is found in your main XBMC user directory.
 
 
 Controls
@@ -153,18 +153,18 @@ Shoudl you wish to configure the config the following button reference may be us
 	</tr>
 	<tr>
 		<td></td>
-		<td>ad Up - 1</td>
+		<td>D-pad Up - 1</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>ad Down - 2</td>
+		<td>D-pad Down - 2</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>ad Left - 3</td>
+		<td>D-pad Left - 3</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td>ad Right- 4</td>
+		<td>D-pad Right- 4</td>
 	</tr>
 </table>

@@ -1,0 +1,258 @@
+<!--
+Matt's Xbox controller config
+
+See https://github.com/hash-bang/XBMC-XBOX for details
+-->
+<keymap>
+	<global>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">Select</button>
+			<button id="7">ParentDir</button>
+			<button id="8">FullScreen</button>
+			<button id="14">ContextMenu</button>
+			<button id="6">PreviousMenu</button>
+			<button id="13">PreviousMenu</button>
+			<button id="1">Up</button>
+			<button id="2">Down</button>
+			<button id="3">Left</button>
+			<button id="4">Right</button>
+			<button id="16">OSD</button>
+			<button id="17">OSD</button>
+			<button id="15">XBMC.ActivateWindow(Home)</button>
+			<button id="9">VolumeDown</button>
+			<button id="10">VolumeUp</button>
+			<button id="11">StepBack</button>
+			<button id="12">StepForward</button>
+			<axis id="2" limit="+1">Down</axis>
+			<axis id="2" limit="-1">Up</axis>
+			<axis id="4" limit="+1">Down</axis>
+			<axis id="4" limit="-1">Up</axis>
+			<axis id="1" limit="+1">Right</axis>
+			<axis id="1" limit="-1">Left</axis>
+			<axis id="3" limit="+1">Right</axis>
+			<axis id="3" limit="-1">Left</axis>
+		</joystick>
+	</global>
+
+	<Home>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<!-- Since we cannot go back any further make the Back button eject -->
+			<button id="13">RunScript("scripts/Eject DVD/default.py")</button> -->
+
+			<button id="14">FullScreen</button>
+		</joystick>
+	</Home>
+
+	<FullscreenVideo>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">Pause</button>
+			<button id="6">Stop</button>
+			<button id="7">Info</button>
+			<button id="14">OSD</button>
+			<button id="17">XBMC.ActivateWindow(10123)</button>
+
+			<button id="1">VolumeUp</button>
+			<button id="2">VolumeDown</button>
+			<button id="4">BigStepForward</button>
+			<button id="3">BigStepBack</button>
+		</joystick>
+	</FullscreenVideo>
+
+	<FullscreenInfo>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">Close</button>
+			<button id="6">Close</button>
+			<button id="7">Close</button>
+			<button id="8">Close</button>
+			<axis id="2" limit="-1">AnalogRewind</axis>
+			<axis id="2" limit="+1">AnalogFastForward</axis>
+			<axis id="4" limit="-1">AnalogRewind</axis>
+			<axis id="4" limit="+1">AnalogFastForward</axis>
+			<axis id="6" limit="0">AnalogRewind</axis>
+			<axis id="5" limit="0">AnalogFastForward</axis>
+		</joystick>
+	</FullscreenInfo>
+
+	<PlayerControls>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+		</joystick>
+	</PlayerControls>
+
+	<Visualisation>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="14">XBMC.ActivateWindow(MusicOSD)</button>
+			<button id="5">Pause</button>
+			<button id="6">Stop</button>
+			<button id="7">Info</button>
+			<button id="1">NextPreset</button>
+			<button id="2">PreviousPreset</button>
+			<button id="3">SkipPrevious</button>
+			<button id="4">SkipNext</button>
+			<!-- Cant seem to skip ahead/back in visualisation so use total track skip instead -->
+			<button id="11">SkipPrevious</button>
+			<button id="12">SkipNext</button>
+		</joystick>
+	</Visualisation>
+
+	<VisualisationSettings>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+		</joystick>
+	</VisualisationSettings>
+
+	<VisualisationPresetList>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="8">Close</button>
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+		</joystick>
+	</VisualisationPresetList>
+
+	<SlideShow>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">Pause</button>
+			<button id="6">Stop</button>
+			<button id="13">Stop</button>
+			<button id="7">Info</button>
+
+			<button id="1">ZoomIn</button>
+			<button id="2">ZoomOut</button>
+			<button id="3">PreviousPicture</button>
+			<button id="4">NextPicture</button>
+
+			<button id="11">PreviousPicture</button>
+			<button id="9">PreviousPicture</button>
+			<button id="12">NextPicture</button>
+			<button id="10">NextPicture</button>
+
+			<axis id="6" limit="0">PreviousPicture</axis>
+			<axis id="5" limit="0">NextPicture</axis>
+		</joystick>
+	</SlideShow>
+
+	<ScreenCalibration>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">NextCalibration</button>
+			<button id="9">NextResolution</button>
+			<button id="10">ResetCalibration</button>
+		</joystick>
+	</ScreenCalibration>
+
+	<GUICalibration>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="5">NextCalibration</button>
+			<button id="6">PreviousMenu</button>
+			<button id="10">ResetCalibration</button>
+		</joystick>
+	</GUICalibration>
+
+	<SelectDialog>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+		</joystick>
+	</SelectDialog>
+
+	<VideoOSD>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="14">PreviousMenu</button>
+			<button id="13">PreviousMenu</button>
+			<button id="6">PreviousMenu</button>
+		</joystick>
+	</VideoOSD>
+
+	<MusicOSD>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="14">PreviousMenu</button>
+			<button id="13">PreviousMenu</button>
+			<button id="6">PreviousMenu</button>
+		</joystick>
+	</MusicOSD>
+
+	<VideoMenu>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Stop</button>
+			<button id="13">Stop</button>
+			<button id="7">Info</button>
+		</joystick>
+	</VideoMenu>
+
+	<OSDVideoSettings>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+		</joystick>
+	</OSDVideoSettings>
+
+	<OSDAudioSettings>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+		</joystick>
+
+	</OSDAudioSettings>
+
+	<VideoBookmarks>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="7">Delete</button>
+			<button id="6">Close</button>
+			<button id="13">Close</button>
+		</joystick>
+	</VideoBookmarks>
+	
+	<MyVideoFiles>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="6">ParentDir</button>
+		</joystick>
+	</MyVideoFiles>
+
+	<VirtualKeyboard>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="14">Enter</button>
+			<button id="6">BackSpace</button>
+			<button id="9">Symbols</button>
+			<button id="10">Symbols</button>
+			<button id="13">BackSpace</button>
+			<button id="8">Shift</button>
+			<button id="16">Shift</button>
+			<button id="17">Shift</button>
+		</joystick>
+	</VirtualKeyboard>
+
+	<ContextMenu>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="13">Close</button>
+			<button id="14">Close</button>
+			<button id="6">Close</button>
+		</joystick>
+	</ContextMenu>
+
+	<NumericInput>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="14">Enter</button>
+			<button id="13">BackSpace</button>
+			<button id="6">BackSpace</button>
+		</joystick>
+	</NumericInput>
+
+	<PictureInfo>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="3">PreviousPicture</button>
+			<button id="4">NextPicture</button>
+		</joystick>
+	</PictureInfo>
+
+	<MyFiles>
+		<joystick name="Xbox Gamepad (userspace driver)">
+			<button id="8">Highlight</button>
+		</joystick>
+	</MyFiles>
+</keymap>
