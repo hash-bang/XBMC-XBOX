@@ -1,5 +1,5 @@
-Matts little XBMC/XBOX controller config
-========================================
+Matt's little XBMC/XBOX controller config
+=========================================
 
 Installation
 ------------
@@ -76,7 +76,7 @@ The following launch method is recommended:
 	sudo xboxdrv --dpad-as-button --trigger-as-button --deadzone 12000 --led 9 -D -s
 
 
-Shoudl you wish to configure the config the following button reference may be useful.
+Should you wish to configure the config the following button reference may be useful.
 
 <table>
 	<tr>
