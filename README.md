@@ -6,7 +6,7 @@ Installation
 
 Simply extract all files from this archive into your .xbmc directory.
 
-Alternatively save (Keymap.xml)[https://github.com/hash-bang/XBMC-XBOX/blob/master/userdata/keymaps/Keymap.xml] into your XBOX `userdata/keymaps` folder which is found in your main XBMC user directory.
+Alternatively save [Keymap.xml](https://raw.github.com/hash-bang/XBMC-XBOX/master/userdata/keymaps/Keymap.xml) into your XBOX `userdata/keymaps` folder which is found in your main XBMC user directory.
 
 
 Controls
