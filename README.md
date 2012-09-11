@@ -152,19 +152,19 @@ Shoudl you wish to configure the config the following button reference may be us
 		<td>A3</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>D-pad Up - 1</td>
+		<td>D-pad Up</td>
+		<td>1</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>D-pad Down - 2</td>
+		<td>D-pad Down</td>
+		<td>2</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>D-pad Left - 3</td>
+		<td>D-pad Left</td>
+		<td>3</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>D-pad Right- 4</td>
+		<td>D-pad Right</td>
+		<td>4</td>
 	</tr>
 </table>
